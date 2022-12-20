@@ -22,7 +22,7 @@ loadSong(songs[songIndex]);
 
 // Update song details
 function loadSong(song) {
-  title.innerText = song;
+  title.innerText = "To her, the one who holds my heart";
   audio.src = `music/${song}.mp3`;
   cover.src = `images/${song}.jpg`;
 }
